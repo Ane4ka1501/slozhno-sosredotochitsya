@@ -5,6 +5,16 @@
 */
 
 .page.theme_dark {
+  --display: flex;
+  --accent-color: #ff0070;
+  --decoreted-color: #ff0070;
+  --background-color: #000028;
+  --title-font: #000028;
+  --hover-color: #353430;
+  --title-color: #db00ff;
+  --text-color: #F1B2CE;
+  --accent-font: 'IBM Plex Mono', sans-serif;
+  --background-image: url(/images/cover-image-dark.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
