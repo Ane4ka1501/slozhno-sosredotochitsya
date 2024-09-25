@@ -18,7 +18,7 @@
   position: relative;
   height: max(668px, 100vh);
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .decorated-zone::before {
@@ -133,7 +133,6 @@
   grid-column: 1/4;
   grid-row: 4/4;
 }
-
 
 .title-decor {
   background-color: var(--accent-color);
@@ -358,7 +357,7 @@
     grid-template-rows: 25px 1fr;
     margin-block-start: 82px;
     column-gap: 9px;
-    row-gap: 17px
+    row-gap: 17px;
   }
 
   .card_title {
@@ -419,7 +418,7 @@
     justify-self: center;
     margin-block-start: 20px;
     margin-inline-end: 49px;
-    }
+  }
 
   .header__theme-menu-list {
     display: flex;
@@ -461,7 +460,7 @@
     flex-direction: row;
     gap: 1px;
   }
-  
+
   .blog > .title {
     grid-column: 1/1;
     grid-row: 1/1;
