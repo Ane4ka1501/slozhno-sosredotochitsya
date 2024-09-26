@@ -107,7 +107,7 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--hover-color);
+  border-bottom: 1px solid var(--decoreted-color);
 }
 
 .header__title {
@@ -336,7 +336,7 @@
 
   .blog {
     display: grid;
-    grid-template-rows: 68px 1fr;
+    grid-template-rows: min-content 1fr;
     grid-template-columns: 150px 1fr;
     margin-block-start: 81px;
   }
@@ -354,10 +354,14 @@
   .recommendations {
     display: grid;
     grid-template-columns: 33% 2fr;
-    grid-template-rows: 25px 1fr;
-    margin-block-start: 82px;
+    grid-template-rows: min-content 1fr;
+    margin-block-start: 80px;
     column-gap: 9px;
-    row-gap: 17px;
+    row-gap: 19px;
+  }
+
+  .recommendations > .title {
+    grid-row: 1/3;
   }
 
   .card_title {
@@ -448,8 +452,7 @@
   .blog {
     display: grid;
     grid-template-columns: 290px 1fr;
-    grid-template-rows: 55px 1fr;
-    gap: 11px;
+    gap: 19px;
   }
 
   .blog > .card_list {
@@ -467,9 +470,8 @@
   }
 
   .recommendations {
-    grid-template-rows: 23px 1fr;
     column-gap: 4px;
-    margin-block-start: 80px;
+    margin-block-start: 79px;
   }
 
   .recommendations > .card_list {
